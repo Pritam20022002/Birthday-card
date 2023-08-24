@@ -95,6 +95,24 @@
       transform: rotateY(360deg) 
     }
   }
+  @media only screen and (max-width: 600px) {
+    .waviy span {
+      position: relative;
+      display: inline-block;
+      font-size: 15px;
+      color: #36e038;
+      animation: flip 2s infinite;
+      animation-delay: calc(.2s * var(--i))
+    }
+    img.birthday {
+      max-height: 32vh;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #m{
+      font-size: 20px;
+    }
+  }
+
 
 
 
